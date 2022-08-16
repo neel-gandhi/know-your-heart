@@ -1,0 +1,84 @@
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.deps.json
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.runtimeconfig.json
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.runtimeconfig.dev.json
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.pdb
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.Views.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.Views.pdb
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.Models.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.Models.pdb
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.csprojAssemblyReference.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.AssemblyInfoInputs.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.AssemblyInfo.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.csproj.CoreCompileInputs.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.MvcApplicationPartsAssemblyInfo.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorAssemblyInfo.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorAssemblyInfo.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/staticwebassets/cardioriskpredictor.StaticWebAssets.Manifest.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/staticwebassets/cardioriskpredictor.StaticWebAssets.xml
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/scopedcss/bundle/cardioriskpredictor.styles.css
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.TagHelpers.input.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.TagHelpers.output.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorCoreGenerate.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/StrokeRisk.cshtml.g.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorTargetAssemblyInfo.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorTargetAssemblyInfo.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.Views.pdb
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.csproj.CopyComplete
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.pdb
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.genruntimeconfig.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.StaticWebAssets.xml
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.deps.json
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.runtimeconfig.json
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.runtimeconfig.dev.json
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.pdb
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.Views.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.Views.pdb
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.Models.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/bin/Debug/netcoreapp3.1/cardioriskpredictor.Models.pdb
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.csproj.AssemblyReference.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.AssemblyInfoInputs.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.AssemblyInfo.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.csproj.CoreCompileInputs.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.MvcApplicationPartsAssemblyInfo.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorAssemblyInfo.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorAssemblyInfo.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/staticwebassets/cardioriskpredictor.StaticWebAssets.Manifest.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.TagHelpers.input.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.TagHelpers.output.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorCoreGenerate.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/StrokeRisk.cshtml.g.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorTargetAssemblyInfo.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.RazorTargetAssemblyInfo.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.Views.pdb
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.csproj.CopyComplete
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.pdb
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/Debug/netcoreapp3.1/cardioriskpredictor.genruntimeconfig.cache

@@ -1,0 +1,18 @@
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor.Models/bin/Debug/netstandard2.1/cardioriskpredictor.Models.deps.json
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor.Models/bin/Debug/netstandard2.1/cardioriskpredictor.Models.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor.Models/bin/Debug/netstandard2.1/cardioriskpredictor.Models.pdb
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.AssemblyInfoInputs.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.AssemblyInfo.cs
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.csproj.CoreCompileInputs.cache
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.dll
+/Users/ng042533/Documents/ASP DOT NET/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.pdb
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/bin/Debug/netstandard2.1/cardioriskpredictor.Models.deps.json
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/bin/Debug/netstandard2.1/cardioriskpredictor.Models.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/bin/Debug/netstandard2.1/cardioriskpredictor.Models.pdb
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.csproj.AssemblyReference.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.AssemblyInfoInputs.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.AssemblyInfo.cs
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.csproj.CoreCompileInputs.cache
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.dll
+/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/obj/Debug/netstandard2.1/cardioriskpredictor.Models.pdb

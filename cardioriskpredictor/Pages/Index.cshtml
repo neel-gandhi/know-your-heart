@@ -1,0 +1,107 @@
+﻿@page
+@using cardioriskpredictor.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "CHD Risk - Know Your Heart";
+}
+
+<style>
+    .center {
+        padding-left: 30%;
+    }
+    .h4-center {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .a-custom {
+        margin-left: 20px;
+    }
+    .h4-custom-bottom {
+        margin-bottom: 40px;
+    }
+</style>
+
+<h4 class="h4-custom-bottom h4-center"> <u>10 Years Prediction for Cardiovascular Risk of Coronary Heart Disease</u></h4>
+<form method="post" class="mt-3 center">
+    <div class="form-group row">
+        <label asp-for="HealthData.AgeGroup" class="col-sm-4 col-form-label">Age (years)</label>
+        <div class="col-sm-3">
+            <select asp-for="HealthData.AgeGroup" class="custom-select mr-sm-2"
+                    asp-items="Html.GetEnumSelectList<AgeGroup>()">
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="HealthData.Cholesterol" class="col-sm-4 col-form-label">Total Cholesterol (mg/dL)</label>
+        <div class="col-sm-3">
+            <select asp-for="HealthData.Cholesterol" class="custom-select mr-sm-2"
+                    asp-items="Html.GetEnumSelectList<Cholesterol>()">
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="HealthData.HDL" class="col-sm-4 col-form-label">HDL Cholesterol (mg/dL)</label>
+        <div class="col-sm-3">
+            <select asp-for="HealthData.HDL" class="custom-select mr-sm-2"
+                    asp-items="Html.GetEnumSelectList<HDL>()">
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="HealthData.BloodPressure" class="col-sm-4 col-form-label">Systolic Blood Pressure (mmHg)</label>
+        <div class="col-sm-3">
+            <select asp-for="HealthData.BloodPressure" class="custom-select mr-sm-2"
+                    asp-items="Html.GetEnumSelectList<BloodPressure>()">
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label">Under Hypertension Treatment?</label>
+        <div class="col-sm-3">
+            @foreach (var treatment in Model.BloodPressureTreatedOptions)
+            {
+                <input type="radio" asp-for="BloodPressureTreated" value="@treatment" /> @treatment<br />
+            }
+        </div>
+        <span asp-validation-for="BloodPressureTreated" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label">Gender</label>
+        <div class="col-sm-3">
+            @foreach (var gender in Model.Genders)
+            {
+                <input type="radio" asp-for="Gender" value="@gender" /> @gender<br />
+            }
+        </div>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label">Smoker?</label>
+        <div class="col-sm-3">
+            @foreach (var smoker in Model.SmokerOptions)
+            {
+                <input type="radio" asp-for="Smoker" value="@smoker" /> @smoker<br />
+            }
+        </div>
+        <span asp-validation-for="Smoker" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-md-auto">
+            <button type="submit" class="btn btn-primary">Compute Risk</button>
+            <a asp-page="/Index" class="btn btn-danger a-custom">Reset</a>
+        </div>
+    </div>
+</form>
+
+@if (@Model.RiskPercentage != null)
+{
+    <h4 class="h4-center">@Model.RiskPercentage</h4>
+    <p class="h4-center">For more information, please visit <a href="https://framinghamheartstudy.org/fhs-risk-functions/hard-coronary-heart-disease-10-year-risk/" target="_blank">Framingham Heart Study</a>, and <b><u>consult your doctor</u></b>.</p>
+}

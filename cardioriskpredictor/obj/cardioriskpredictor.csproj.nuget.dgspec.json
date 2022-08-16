@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/cardioriskpredictor.csproj": {}
+  },
+  "projects": {
+    "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/cardioriskpredictor.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/cardioriskpredictor.Models.csproj",
+        "projectName": "cardioriskpredictor.Models",
+        "projectPath": "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/cardioriskpredictor.Models.csproj",
+        "packagesPath": "/Users/nbgandhi/.nuget/packages/",
+        "outputPath": "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nbgandhi/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/cardioriskpredictor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/cardioriskpredictor.csproj",
+        "projectName": "cardioriskpredictor",
+        "projectPath": "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/cardioriskpredictor.csproj",
+        "packagesPath": "/Users/nbgandhi/.nuget/packages/",
+        "outputPath": "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nbgandhi/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/cardioriskpredictor.Models.csproj": {
+                "projectPath": "/Users/nbgandhi/Desktop/cardioriskpredictor/cardioriskpredictor.Models/cardioriskpredictor.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

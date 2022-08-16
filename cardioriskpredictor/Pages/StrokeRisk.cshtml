@@ -1,0 +1,150 @@
+﻿@page
+@using cardioriskpredictor.Models
+@model cardioriskpredictor.Pages.StrokeRiskModel
+
+@{
+    ViewData["Title"] = "Stroke Risk - Know Your Heart";
+}
+<style>
+    .center {
+        padding-left: 25%;
+    }
+
+    .h4-center {
+        padding-top: 20px;
+    }
+
+    .result-center {
+        text-align: center;
+    }
+
+    .a-custom {
+        margin-left: 20px;
+    }
+
+    .h4-custom-bottom {
+        margin-bottom: 40px;
+    }
+</style>
+
+<h4 class="h4-custom-bottom h4-center center"> <u>10 Years Prediction for Risk of Heart Stroke</u></h4>
+<form method="post" class="mt-3 center">
+    <div class="form-group row">
+        <label asp-for="Age" class="col-sm-5 col-form-label">Age (years)</label>
+        <div class="col-sm-2">
+            <input asp-for="Age" class="form-control" placeholder="50-90" min="50" max="90">
+        </div>
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="BloodPressure" class="col-sm-5 col-form-label">Systolic Blood Pressure (mmHg)</label>
+        <div class="col-sm-2">
+            <input asp-for="BloodPressure" class="form-control" placeholder="85-215" min="85" max="215">
+        </div>
+        <span asp-validation-for="BloodPressure" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-5 col-form-label">Under Hypertension Treatment</label>
+        <div class="col-sm-2">
+            @foreach (var treatment in Model.BloodPressureTreatedOptions)
+            {
+                <input type="radio" asp-for="BloodPressureTreated" value="@treatment" /> @treatment<br />
+            }
+        </div>
+        <span asp-validation-for="BloodPressureTreated" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-5 col-form-label">Smoker</label>
+        <div class="col-sm-2">
+            @foreach (var smoker in Model.SmokerOptions)
+            {
+                <input type="radio" asp-for="Smoker" value="@smoker" /> @smoker<br />
+            }
+        </div>
+        <span asp-validation-for="Smoker" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-5 col-form-label">Diabetes</label>
+        <div class="col-sm-2">
+            @foreach (var diabetes in Model.DiabetesOptions)
+            {
+                <input type="radio" asp-for="Diabetes" value="@diabetes" /> @diabetes<br />
+            }
+        </div>
+        <span asp-validation-for="Diabetes" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-5 col-form-label">
+            <a href="https://www.heart.org/en/health-topics/consumer-healthcare/what-is-cardiovascular-disease" target="_blank">
+                Cardiovascular Disease (CD)
+            </a>History
+        </label>
+        <div class="col-sm-2">
+            @foreach (var cvh in Model.CardioVascularHistoryOptions)
+            {
+                <input type="radio" asp-for="CardioVascularHistory" value="@cvh" /> @cvh<br />
+            }
+        </div>
+        <span asp-validation-for="CardioVascularHistory" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-5 col-form-label">
+            <a href="https://www.heart.org/en/health-topics/atrial-fibrillation/what-is-atrial-fibrillation-afib-or-af" target="_blank">
+                Atrial Fibrillation
+            </a>History
+        </label>
+        <div class="col-sm-2">
+            @foreach (var afh in Model.AtrialFibrillationHistoryOptions)
+            {
+                <input type="radio" asp-for="AtrialFibrillationHistory" value="@afh" /> @afh<br />
+            }
+        </div>
+        <span asp-validation-for="AtrialFibrillationHistory" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-5 col-form-label">
+            <a href="https://www.mayoclinic.org/diseases-conditions/left-ventricular-hypertrophy/symptoms-causes/syc-20374314#:~:text=Left%20ventricular%20hypertrophy%20is%20a,cause%20is%20high%20blood%20pressure." target="_blank">
+                Left Ventricular Hypertrophy (LVH)
+            </a>History
+        </label>
+        <div class="col-sm-2">
+            @foreach (var lvh in Model.LeftVentricularHypertrophyHistoryOptions)
+            {
+                <input type="radio" asp-for="LeftVentricularHypertrophyHistory" value="@lvh" /> @lvh<br />
+            }
+        </div>
+        <span asp-validation-for="LeftVentricularHypertrophyHistory" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-5 col-form-label">Gender</label>
+        <div class="col-sm-2">
+            @foreach (var gender in Model.Genders)
+            {
+                <input type="radio" asp-for="Gender" value="@gender" /> @gender<br />
+            }
+        </div>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-md-auto">
+            <button type="submit" class="btn btn-primary">Compute Risk</button>
+            <a asp-page="/StrokeRisk" class="btn btn-danger a-custom">Reset</a>
+        </div>
+    </div>
+</form>
+
+@if (@Model.RiskPercentage != null)
+{
+    <h4 class="h4-center result-center">@Model.RiskPercentage</h4>
+    <p class="h4-center result-center">For more information, please visit <a href="https://framinghamheartstudy.org/fhs-risk-functions/stroke/" target="_blank">Framingham Heart Study</a>, and <b><u>consult your doctor</u></b>.</p>
+}
+
